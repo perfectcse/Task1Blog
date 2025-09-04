@@ -1,0 +1,30 @@
+.home-container {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: #f9f9f9;
+}
+
+.home-container h1 {
+  font-size: 2.5rem;
+  color: #2d6a4f;
+}
+
+.home-container p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.home-container a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background: #2d6a4f;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.home-container a:hover {
+  background: #40916c;
+}

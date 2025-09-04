@@ -1,0 +1,39 @@
+blog-backend/
+│
+├── .env                # Environment variables
+├── package.json
+├── server.js           # Main entry point
+│
+├── config/
+│   └── db.js           # MongoDB connection file
+│
+├── models/
+│   ├── User.js
+│   └── Post.js
+│
+├── routes/
+│   ├── authRoutes.js
+│   └── postRoutes.js
+│
+├── controllers/
+│   ├── authController.js
+│   └── postController.js
+│
+└── middleware/
+    └── authMiddleware.js
+
+
+....................................................................................................................
+blog-frontend/
+│
+├── src/
+│   ├── components/
+│   │   └── Navbar.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── PostDetails.jsx
+│   │   ├── Login.jsx
+│   │   └── Dashboard.jsx
+│   ├── App.jsx
+│   └── main.jsx
+└── index.html

@@ -4,7 +4,7 @@ const authMiddleware = require("../middleware/authMiddleware");
 
 const router = express.Router();
 
-// ✅ Create post (protected)
+
 router.post("/", authMiddleware, async (req, res) => {
   try {
     const { title, content } = req.body;
@@ -19,7 +19,7 @@ router.post("/", authMiddleware, async (req, res) => {
   }
 });
 
-// ✅ Get all posts (public)
+
 router.get("/", async (req, res) => {
   try {
     const posts = await Post.find().sort({ createdAt: -1 });
